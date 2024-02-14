@@ -1,0 +1,152 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+
+.container {
+    margin: auto 100px;
+}
+
+body {
+    margin: 0px;
+    /* background-color: rgb(7, 18, 53); */
+    background-image: linear-gradient(to right, #192653, #131D41);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    column-gap: 24px;
+
+}
+
+.brand a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.nav-btn button {
+    color: aliceblue;
+    background-color: #fdfdfd19;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+header {
+    padding: 25px 0px;
+}
+
+main {
+    margin: 40px auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+
+.title h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 54px;
+    margin: 0px;
+
+}
+
+.title p {
+    margin: 0px;
+    margin-top: 15px;
+    width: 500px;
+    line-height: 32px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.59);
+}
+
+.title {
+    margin: 30px 0px;
+}
+
+img {
+    width: 430px;
+}
+
+.cta {
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}
+
+.cta button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #FF5C00;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.feature {
+    display: flex;
+    column-gap: 24px;
+    margin: 20px auto;
+}
+
+.feature article {
+    display: flex;
+    column-gap: 24px;
+
+}
+
+figcaption h1 {
+    margin: 0px;
+    font-size: 24px;
+    color: white;
+}
+
+figcaption p {
+    color: rgba(255, 255, 255, 0.523);
+    font-weight: 100;
+    line-height: 22px;
+}
+
+.cta a {
+    color: #FF5C00;
+}
+
+.icon img {
+    width: 24px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
