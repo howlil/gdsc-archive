@@ -10,56 +10,86 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <style>
+      * {
+        border: 1px solid;
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
-      <header class="py-4">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Omah </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">To rent</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">For sale</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> Blog</a>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <button class="btn btn-warning" type="submit">Search</button>
-              </form>
-            </div>
-          </div>
-        </nav>
-      </header>
+    <div class="py-4 container">
+      <div class="d-flex align-items-center justify-content-between">
+        <h1 class="fs-4">Omah</h1>
+
+        <div class="d-flex gap-3 align-items-center">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          <button class="btn-warning btn">Search</button>
+        </div>
+      </div>
     </div>
 
-    <main>
-      <div>
-        <h1>Ready to find your new home</h1>
-        <span> <hr class="" /> </span>
+    <div class="text-left my-4">
+      <div class="d-flex container justify-content-between gap-4">
+        <div class="col">
+          <h1 style="font-size: 54px">
+            Ready to <br />
+            find your new home
+          </h1>
+        </div>
+        <div class="col d-flex justify-content-end align-items-start gap-3">
+          <img
+            style="width: 24px"
+            class="mt-2"
+            src="./img/Rectangle3.svg"
+            alt=""
+          />
+          <p class="text-secondary fs-5">
+            looking for a house with a low price <br />
+            and quality here, and sell your house <br />
+            quickly here
+          </p>
+        </div>
       </div>
-    </main>
+    </div>
+    <div class="my-4">
+      <img height="440" src="./img/img1.jpg" alt="" />
+      <div>
+        <div class="d-flex gap-4">
+          <div>
+            <p>Select city</p>
+            <p>Jakarta</p>
+          </div>
+          <div>
+            <p>Select city</p>
+            <p>Jakarta</p>
+          </div>
+          <div>
+            <p>Select city</p>
+            <p>Jakarta</p>
+          </div>
+          <div>
+            <p>Select city</p>
+            <p>Jakarta</p>
+          </div>
+          <div>
+            <p>Select city</p>
+            <p>Jakarta</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex align-items-center">
+      <div class="col">
+        <h1>Some people are very satisfied buying a house here</h1>
+      </div>
+      <div class="col">
+        <p>View all</p>
+      </div>
+    </div>
+
     <footer></footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
