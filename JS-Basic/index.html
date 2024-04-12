@@ -37,21 +37,53 @@
         color: rgb(4, 179, 138);
         margin: 0px;
       }
-      button {
+      #btn {
         background-color: rgb(4, 179, 138);
         border: none;
         padding: 10px 24px;
         color: white;
         border-radius: 8px;
+        transition: all 0.3s ease;
+      }
+      #btn:hover {
+        background-color: black;
+      }
+
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4); /* Warna latar belakang */
+      }
+
+      .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+      }
+
+      .struk p,
+      .struk ul,
+      .struk li {
+        margin: 10px 0;
       }
     </style>
     <div class="container">
       <div class="card">
         <h1>Wellcome to CafeQubic</h1>
-        <button>Mulai</button>
+        <button id="btn">Mulai</button>
       </div>
     </div>
+    <div id="strukModal" class="modal">
+      <div class="modal-content" id="struk-container"></div>
+    </div>
+    <script src="./js.js"></script>
   </body>
-
-  <script></script>
 </html>
